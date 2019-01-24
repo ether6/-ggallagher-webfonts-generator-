@@ -122,7 +122,7 @@ function augmentFilesArrayWithGlobs(filesArray) {
 	filesArray.forEach(fileName => {
 		promises.push(new Promise(resolve => {
 			if (fileName.indexOf('*') !== -1) {
-				glob("**/*.js", options, function (er, files) {
+				glob("**/*.js", {}, function (er, files) {
 					resolve(files);
 				});
 			}
