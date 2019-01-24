@@ -1,5 +1,5 @@
 {
-  "name": "@ggallagher/webfonts-generator",
+  "name": "@gmgallag/webfonts-generator",
   "version": "0.4.1",
   "description": "Generator of webfonts from svg icons",
   "main": "src/index.js",
